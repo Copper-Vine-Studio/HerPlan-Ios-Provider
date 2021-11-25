@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188013A1274F614300D05B5A /* HMContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188013A0274F614300D05B5A /* HMContactUs.swift */; };
 		31D8D885E63883395CB5EDEE /* Pods_HerPlan_provider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BF49DA97FD2676FADC29B2 /* Pods_HerPlan_provider.framework */; };
 		4F58A7CF273D0B9400020380 /* HPCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58A7CE273D0B9400020380 /* HPCornerRadius.swift */; };
 		4F58A7D2273D0FDB00020380 /* HPSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58A7D1273D0FDB00020380 /* HPSignUpViewController.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0B534CF6375D39847452FAE9 /* Pods-HerPlan-provider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerPlan-provider.release.xcconfig"; path = "Target Support Files/Pods-HerPlan-provider/Pods-HerPlan-provider.release.xcconfig"; sourceTree = "<group>"; };
+		188013A0274F614300D05B5A /* HMContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMContactUs.swift; sourceTree = "<group>"; };
 		4F37083F23B9F87B00891315 /* HerPlan-provider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HerPlan-provider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F58A7CE273D0B9400020380 /* HPCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPCornerRadius.swift; sourceTree = "<group>"; };
 		4F58A7D1273D0FDB00020380 /* HPSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPSignUpViewController.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				4F70830F273D339400712539 /* HPCreatePasswordViewController.swift */,
 				4F58A7D1273D0FDB00020380 /* HPSignUpViewController.swift */,
 				84112824273CF9C500D2F6C9 /* HPLoginViewController.swift */,
+				188013A0274F614300D05B5A /* HMContactUs.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				8457DEF8273BF29600251E9E /* LocationPermission.swift in Sources */,
 				8457DEFB273BF29600251E9E /* UIButton.swift in Sources */,
 				8457DF02273BF29600251E9E /* ViewController.swift in Sources */,
+				188013A1274F614300D05B5A /* HMContactUs.swift in Sources */,
 				8457DEFD273BF29600251E9E /* String+Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

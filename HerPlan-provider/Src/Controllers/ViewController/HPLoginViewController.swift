@@ -27,4 +27,17 @@ class HPLoginViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
         }
     }
+    
+    @IBAction func forgotPassword(_ sender: UIButton) {
+        if email.text!.isEmpty || password.text!.isEmpty {
+            let alert = UIAlertController(title: "invalid" , message: "Please fill all the fields.", preferredStyle: .alert)
+            let saveAction = UIAlertAction(title: "OK", style: .default) { (action) in
+            }
+            alert.addAction(saveAction)
+            self.present(alert, animated: true, completion: nil)
+        }
+        
+        let aVc = self.storyboard?.instantiateViewController(identifier: "HPCreatePasswordViewController") as! HPCreatePasswordViewController
+        navigationController?.pushViewController(aVc, animated: true)
+    }
 }
